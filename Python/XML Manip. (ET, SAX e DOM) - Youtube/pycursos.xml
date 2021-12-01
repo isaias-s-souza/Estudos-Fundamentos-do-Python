@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<pais nome="Brasil">
+	<estado nome="Sao Paulo">
+		<cidade nome="Caconde"/>
+	</estado>
+	<estado nome="Minas Gerais">
+		<cidade nome="Muzambinho">
+			<habitantes>21.000</habitantes>
+		</cidade>
+		<cidade nome="Guaxupe"/>
+	</estado>
+</pais>

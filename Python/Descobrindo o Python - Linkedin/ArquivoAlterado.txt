@@ -1,0 +1,4 @@
+Linha escrita pela funcao 'EscreveArquivo' 
+
+Linha escrita pela funcao 'AlteraArquivo' 
+
