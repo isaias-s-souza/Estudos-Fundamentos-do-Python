@@ -1,0 +1,49 @@
+1- Sabe-se que uma molécula de RNA mensageiro é utilizada como base para sintetizar proteínas, no
+processo denominado de tradução. Cada trinca de bases de RNA mensageiro está relacionado com
+um aminoácido. Combinando vários aminoácidos, temos uma proteína. Com base na tabela (simplificada) de trincas de RNA abaixo, escreva um programa que receba uma string representando uma
+molécula de RNA mensageiro válida, segundo essa tabela, e imprime na tela a cadeia de aminoácidos
+que representam a proteína correspondente:
+Trinca de RNA     Nome do Aminoácido
+UUU                       Phe
+CUU                       Leu
+UUA                       Leu
+AAG                       Lisina
+UCU                       Ser
+UAU                      Tyr
+CAA                      Gln
+Observação: as mensagens exibidas para o usuário deverão ser exatamente como apresentado abaixo
+(mensagens exibidas com os comandos input() e print()).
+Exemplo 1 de execução do programa:
+Digite o RNA: UUUUUAUCU
+Cadeia de Aminoácidos: Phe-Leu-Ser
+
+2- Escreva um programa que converte um número inteiro (entre 1 e 999) para algarismos romanos. Use
+os três dicionários abaixo:
+• UNIDADES = 0: ”, 1: ’I’, 2: ’II’, 3: ’III’, 4: ’IV’, 5: ’V’, 6: ’VI’, 7: ’VII’, 8: ’VIII’, 9: ’IX’
+• DEZENAS = 0: ”, 1: ’X’, 2: ’XX’, 3: ’XXX’, 4: ’XL’, 5: ’L’, 6: ’LX’, 7: ’LXX’, 8: ’LXXX’, 9: ’XC’
+• CENTENAS = 0: ”, 1: ’C’, 2: ’CC’, 3: ’CCC’, 4: ’CD’, 5: ’D’, 6: ’DC’, 7: ’DCC’, 8: ’DCCC’, 9: ’CM’
+Observação: as mensagens exibidas para o usuário deverão ser exatamente como apresentado abaixo
+(mensagens exibidas com os comandos input() e print()).
+Exemplo 1 de execução do programa
+Digite um número: 819
+Número Romano: DCCCXIX
+
+3- Em uma corrida de Kart, cada competidor tem direito a dar 5 voltas. O arquivo tempos.txt armazena
+o nome e os tempos em segundos de todos os competidores durante a corrida. Escreva um programa
+que lê o arquivo tempos.txt e exibe na tela o nome do competidor que realizou a melhor volta e o
+tempo da melhor volta, além da classificação final dos competidores na corrida (começando do campeão). O campeão é o competidor com a menor média de tempos.
+Observação: as mensagens exibidas para o usuário deverão ser exatamente como apresentado abaixo
+(mensagens exibidas com os comandos input() e print()).
+Exemplo de execução do programa:
+Assumindo que o arquivo tempos.txt possui o conteúdo abaixo:
+Burnquist 151 50 130 140 85
+Marley 112 51 55 60 137
+Bob 98 145 95 89 87
+Ariel 112 53 80 98 69
+Seu programa deve imprimir:
+Melhor volta: Burnquist - 50 segundos
+Classificação final:
+1 - Ariel - 82.40
+2 - Marley - 83.00
+3 - Bob - 102.80
+4 - Burnquist - 111.20
